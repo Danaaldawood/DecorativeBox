@@ -1,0 +1,127 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e4d8dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-size: 28px 28px;
+}
+
+.div1 {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 227, 227, 0.9);
+   
+    border-radius: 10px;
+  
+  
+}
+
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+input[type=text], select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #93b5c6;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    
+}
+
+input[type=submit] {
+    background-color: #93b5c6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+   
+    width: 100%;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #729bb1;
+}
+
+
+
+
+.background-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-image: url("images/img22.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 30px;
+    width: 60%;
+    max-width: 700px;
+   
+}
+
+.logout-button:hover {
+    background-color: #7a93ac;
+}
+
+
+
+
+
+
+#btn{
+      position: absolute; /* Position the logout link absolutely */
+    top: 20px; /* 20px from the top */
+    right: 20px;
+    padding:1px 10px;
+    background-color:#C9CCD5;
+    color: #333333; 
+    font-weight: bold;
+    margin-right:1em;
+    letter-spacing: 1px;
+    border:1px solid black;
+    line-height:30px;
+    transition: .5s ease;
+    box-shadow:3px 3px 1px 1px #C9CCD5, 3px 3px 1px 2px black; 
+    text-decoration: none;
+   
+  }
+  
+   #btn:hover{
+      color:white;
+      background-color:black;
+      border:1px solid black;
+   }
+

@@ -1,0 +1,198 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C9CCD5; 
+    
+}
+
+header {
+    background-color: #f8e6e6; 
+    color: #93B5C6; 
+    display: flex;
+    padding: 1.25em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em; 
+    
+}
+
+header img{
+    height:12.75em;
+}
+
+
+
+#btn{
+  padding:1px 10px;
+  background-color:#C9CCD5;
+  color: #333333; 
+  font-weight: bold;
+  margin-right:1em;
+  letter-spacing: 1px;
+  border:1px solid black;
+  line-height:30px;
+  transition: .5s ease;
+  box-shadow:3px 3px 1px 1px #C9CCD5, 3px 3px 1px 2px black; 
+}
+
+ #btn:hover{
+    color:white;
+    background-color:black;
+    border:1px solid black;
+  }
+
+
+main {
+    padding: 1.25em;
+}
+
+section{
+    background-color: #FFFFFF; 
+    margin-bottom: 1.875em; 
+    padding: 1.25em;
+    box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.1); 
+}
+
+.Designer-info h1, .Designer-info h3, h2, pre {
+    color: #333333; 
+    margin-bottom: 0.625em; 
+}
+
+h2{
+     color: #333333; 
+     margin-bottom: 0.625em; 
+     text-align:left;
+     font-weight: bold;
+     font-size:1.5em;
+     
+}
+
+pre{
+     color: #333333; 
+     margin-bottom: 0.625em; 
+     text-align:left;
+     font-size:1.5em;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.625em;
+}
+
+table, th, td {
+    border: 1px solid #C9CCD5; 
+}
+
+th, td {
+    padding: 0.9375em; 
+    text-align: left;
+}
+
+th {
+    background-color: #C9CCD5; 
+    color: #333333;
+    text-align:center;
+}
+
+td{
+     background-color: white;
+    
+}
+
+td img {
+    width: 6.25em; 
+    height: auto;
+}
+
+select {
+    padding: 0.3125em;
+    margin-right: 0.625em;
+}
+
+button {
+    padding: 0.3125em 0.625em;
+    background-color: #93B5C6; 
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a93ac;
+}
+
+.colorChange{
+    background-color: white;
+}
+
+
+a {
+  text-decoration:none;
+  color:#333333;
+  position:relative;
+}
+
+a:before{
+  content: '';
+  position:absolute;
+  bottom:0;
+  display: block;
+  width: 0;
+  background-color: #C9CCD5;
+  margin:auto;
+  height:3px;
+}
+
+a:hover::before{
+  width: 100%;
+  transition:width 0.5s linear;
+}  
+
+a:hover {
+ color:#C9CCD5;
+}
+
+.modern{
+    background-color:#E4D8DC;
+    color:#C3A4A8;
+    padding:0.3em;
+    border-radius:1em;
+    text-align:center;
+}
+
+.bohemian{
+    background-color:#FFE3E3;
+    color:#FFA3A0;
+    padding:0.3em;
+    border-radius:1em;
+    text-align:center;
+}
+
+.coastal{
+    background-color:#C9CCD5;
+    color:#94969D;
+    padding:0.3em;
+    border-radius:1em;
+    text-align:center;
+}
+
+.country{
+    background-color:#93B5C6;
+    color:#69818E;
+    padding:0.3em;
+    border-radius:1em;
+    text-align:center;
+}
+
+#special{
+    position:relative;
+    left:1050px;
+    bottom:45px;
+}
+
